@@ -38,7 +38,6 @@ body {
 }
 
 #informacion-creador {
-
     margin-bottom: 30px;
     color: black;
 
@@ -81,6 +80,12 @@ body {
     transform: scale(1.05);
     background-color: #f0f0f0;
 }
+
+footer {
+    margin: 20px 0 5px;
+    text-align: center;
+}
+
 
 @media (max-width: 480px) {
     .container {
