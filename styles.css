@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito";
+    background: url(./images/fondo-proyecto.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    border: 2px black solid;
+    background: linear-gradient(180deg, #7cbedf 0%, #59baeb 100%);
+    border-radius: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-perfil {
+    width: 95px;
+    height: 95px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.imagen-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#informacion-creador {
+
+    margin-bottom: 30px;
+    color: black;
+
+}
+
+#informacion-creador h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#informacion-creador p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.titulo-enlace {
+    color: white;
+    margin: 20px 0 10px;
+    font-size: 18px;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.boton-enlace {
+    background-color: white;
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+    font-weight: bold;
+}
+
+.boton-enlace:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .boton-enlace {
+        padding: 12px 15px;
+    }
+
+    #informacion-creador h1 {
+        font-size: 20px;
+    }
+    
+}
